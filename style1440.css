@@ -26,8 +26,9 @@
 
     .third{
       display: flex;
+      height: fit-content;
       .left h1{
-        font-size: 3rem;
+        font-size: 4rem;
         font-weight: 600;
       }
       .left #para p{
@@ -37,10 +38,28 @@
       line-height: 2;
       
       }
+      .right {
+        ul li {
+            margin-bottom: 35px;
+            font-size: 1.4rem;
+            font-weight: 500;
+            word-spacing: 5px;
+        }
+    }
     }
 
     .fourth{
-      
+        display: flex;
+        justify-content: space-between;
+        height: fit-content;
+        
+            .right-div {
+                text-align: justify;
+                /* width: min-content; */
+                /* padding: 0 215px; */
+                width: 550px;
+            }
+       
       .right-div .upper-text{
         p{
           padding: 0px 20px;
@@ -49,13 +68,13 @@
         }
       }
     }
-    .fourth .left-div h1 {
-      font-size: rem;
+    .fourth .left-div #cb {
+      font-size: 4rem;
       font-weight: 600;
   }
   .fifth {
-    .image {
-        height: 650px;
+    #imgh {
+        height: 690px;
     }
 }
     .sixth{
