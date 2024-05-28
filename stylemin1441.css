@@ -1,0 +1,185 @@
+@media screen and (min-width: 1441px){
+    .first{
+        height: 100vh;
+    }
+    .first .first-texts{
+      padding: 200px 150px;
+
+      h2{
+        font-size: 2rem;
+        font-weight: 400;
+      }
+      h1{
+        font-weight: 500;
+        font-size: 4rem;
+      }
+      p{
+        font-size: 2rem;
+        padding: 20px 200px;
+      }
+    }
+    .second{
+        height: fit-content;
+        .second-heading .second-texts{
+          h1{
+            font-size: 3rem;
+            font-weight: 700;
+          }
+          p{
+            font-size:1.8rem;
+            line-height: 2;
+            text-align: center;
+          }
+        }
+    }
+    .second .cards{
+        margin: 80px 0px;
+    }
+    .second .cards 
+    .f-card,
+    .s-card,
+    .t-card,
+    .fo-card{
+      width: 350px;
+      height: 550px;
+      overflow: hidden;
+    }
+
+    .third{
+        height: fit-content;
+        
+        .left {
+            text-align: left;
+            flex: 1;
+            padding: 0px 30px;
+        }
+        .left h1{
+            font-size: 4rem;
+            font-weight: 600;
+        }
+        .left #t-para{
+            font-size: 1.8rem;
+        }
+        .left {
+            button {
+                background-color: black;
+                color: #fafafa;
+                margin-bottom: 40px;
+                padding: 10px 80px;
+                font-size: 18px;
+            }
+        }
+
+        
+            .right {
+                margin: 52px 0;
+                padding: 80px 160px;
+                ul li {
+                    margin-bottom: 35px;
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                    word-spacing: 5px;
+                } 
+            }
+        
+    }
+
+     .fourth{
+        height: fit-content;
+        align-items: center;
+        .left-div #cb{
+            font-size: 5rem;
+        }
+        .right-div {
+            text-align: justify;
+            padding-top: 98px;
+            max-width: 482px;
+        }
+     }
+     .fifth {
+        height: fit-content;
+        #imgh {
+            height: 100vh;
+        }
+        
+    }
+
+
+
+
+
+
+
+    .sixth .upper-text {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center;
+        justify-content: space-between;
+        height: fit-content;
+        .rg-txt {
+            padding: 0px 0px;
+            max-width: 800px;
+            /* min-width: 600px; */
+            #right-p{
+                font-size: 2rem;
+            }
+        }
+    }
+    .lf-txt {
+        padding: 20px 10px;
+        text-align: left;
+        flex: 1;
+        max-width:800px;
+        #left-h1{
+            font-size: 4rem;
+        }
+    }
+
+   .sixth .heading {
+        #six-heading {
+            font-weight: 600;
+            font-size: 1.5rem;
+            margin: 14px 0px;
+            font-size: 3.5rem;
+        }
+        #heading-para{
+            font-size: 2rem;
+            padding: 20px 250px;
+        }
+    }
+}
+
+.sixth .cards {
+    .first-card,
+    .m-card {
+       margin: 0px 20px;
+      height: 500px;
+      width: 400px;
+      line-height: 2;
+
+      h1 {
+        font-size: 1.8rem;
+      }
+      h2 {
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 1rem;
+        padding: 0px 5px;
+        line-height: 2;
+      }
+
+      button {
+        background: transparent;
+        border: 2px solid #d2ab78;
+        padding: 20px 40px;
+        font-weight: 200;
+        margin-top: 30px;
+        font-size: 0.8rem;
+        
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }

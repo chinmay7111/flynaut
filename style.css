@@ -591,21 +591,3 @@ section {
 
 
 */
-@media screen and (min-width: 1441px){
-    .first .first-texts{
-        padding: 0px 60px;
-    }
-
-    .second{
-        height: fit-content;
-    }
-
-    .sixth .upper-text {
-        display: flex !important;
-        flex-direction: row !important;
-        align-items: center;
-        justify-content: center;
-    }
-
-    
-}
