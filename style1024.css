@@ -75,12 +75,19 @@
 
     .fourth{
         height: fit-content;
+        flex-wrap: wrap;
+
+        .right-div{
+             max-width: 400px;
+        min-width: 200px;
+        }
       .left-div {
         #cb{
-          font-size: 3.5rem;
+          font-size: 3.2rem;
         }
       }
       .upper-txt {
+       
         #paragraph {
             font-size: 1rem;
             text-align: justify;
