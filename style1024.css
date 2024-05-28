@@ -54,8 +54,8 @@
           font-size: 2rem;
         }
         #para p {
-          font-size: 1rem;
-          font-weight: 600;
+          font-size: 0.9rem;
+          font-weight: 400;
           text-align: left;
           line-height: 1.5;
       }
@@ -67,7 +67,7 @@
       }
       }
       #list ul li{
-        font-size: 1rem;
+        font-size: 0.9rem;
         line-height: 5px;
       }
     
