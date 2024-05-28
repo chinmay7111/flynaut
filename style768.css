@@ -1,0 +1,291 @@
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    .first {
+      
+      height: fit-content;
+    }
+  
+    .first .first-texts {
+      padding: 85px 100px;
+      h1 {
+        font-size: 1.4rem;
+      }
+      h2 {
+        font-size: 0.5rem;
+      }
+      p {
+        font-size: 0.6rem;
+        padding: 0px 40px;
+      }
+      button{
+        font-size: 0.4rem;
+      }
+    }
+  
+    /* ************************ */
+    .second {
+      height: fit-content;
+    }
+    .second-heading {
+      text-align: center;
+  
+      #first-heading {
+        font-size: 1rem;
+      }
+      #first-para {
+        font-size: 0.8rem;
+      }
+    }
+    .second .cards {
+      display: flex;
+      flex-direction: row;
+    }
+    .s-card .c-text {
+      position: relative;
+      bottom: 30px;
+  
+      .scard-text {
+        p {
+          font-size: 1rem;
+          margin: 0px;
+        }
+      }
+    }
+    .second .cards .f-card,
+    .s-card{
+      width: 180px;
+   
+      height: 350px;
+      overflow: hidden;
+    }
+    .t-card,
+    .fo-card {
+      display: none;
+    }
+  
+    
+  .s-card .camera {
+    background-color: #d2ab78;
+    width: 66px;
+    height: 71px;
+    padding: 6px;
+    border-radius: 33px;
+    color: white;
+    position: relative;
+    top: -87px;
+    left: 106px;
+  }
+  .s-card .c-text {
+    position: relative;
+    bottom: 78px;
+  }
+  .s-card {
+    & .scard-text {
+        button {
+            background-color: #d2ab78;
+            border: none;
+            margin-top: 20px;
+            padding: 10px 71px;
+        }
+    }
+  }
+  .fo-card {
+    & .fo-card-text {
+        .fo-text {
+            position: relative;
+            bottom: 77px;
+            line-height: 0.4;
+            font-size: 0.5rem;
+        }
+    }
+  }
+  
+  
+  
+  
+  
+  /* ********************************************* */
+  .third {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .third .left {
+    p {
+      font-size: 1rem;
+      padding: 0px 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
+  }
+  
+  .third .left #t-para {
+    padding: 0px 35px;
+    font-size: 0.8rem;
+  }
+  
+  .third .right {
+    ul li {
+      line-height: 15px;
+      font-size: 1.5rem;
+    }
+  }
+  .third {
+    
+    & .left {
+      #btn {
+        position: relative;
+        bottom: 21px;
+    }
+        button {
+            font-size: 10px;
+            padding: 1px 35px;
+            height: 35px;
+            span{
+              font-size: 2rem;
+            }
+        }
+    }
+  
+    
+      #list ul li {
+          font-size: 1rem;
+          line-height: 1px;
+          
+      }
+  
+  }
+  /* ************************
+   */
+  .fourth {
+    height: fit-content;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-right: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+  padding-right: 100px;
+  }
+  
+  .fourth .left-div #cb {
+    font-size: 2.5rem;
+  }
+  
+  .fourth .right-div {
+    text-align: center;
+    .upper-txt {
+      padding: 34px 0px;
+  }
+    .upper-txt #paragraph {
+      font-size: 0.9rem;
+      text-align: justify;
+  }
+  
+    .lower-txt {
+      padding: 40px 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.7rem;
+  
+    }
+  }
+  
+  /* ************************ */
+  .fifth {
+    height: fit-content;
+  #imgh{
+    height: 450px;
+  }
+    .image {
+      height: 400px;
+    }
+  }
+  /* ************************************* */
+  .sixth .upper-text{
+    
+    
+      display: flex !important;
+      flex-direction: row !important;
+      align-items: center;
+      justify-content: center;
+      height: fit-content;
+      padding: 32px 103px;
+  
+  }
+  .sixth .upper-text .rg-txt {
+    #right-p {
+        font-size: 0.8rem;
+        width: 267px;
+       padding-top: 20px;
+      
+    }
+  }
+  .sixth .upper-text{
+    
+      padding:0;
+      #up-txt{
+        padding: 0px 11px;
+      }
+      #right-p{
+        height: fit-content;
+      }
+  
+  }
+  .sixth .upper-text .lf-txt {
+    #left-h1 {
+      font-size: 1.2rem;
+    }
+   
+    .sixth .upper-text .rg-txt  {
+      p{
+          font-size: 1.5rem;
+          padding: 0px 167px;
+          text-align: center;
+      }
+    }
+  }
+  .sixth .heading {
+    h1 {
+      font-size: 1rem;
+      padding: 0px 0px;
+      font-weight: 600;
+    }
+    p {
+      font-size: 0.5rem;
+    }
+    
+    
+  }
+  /* .cards {
+    .first-card,
+    .m-card{
+      height: 320px;
+      width: 220px;
+      line-height: 20px;
+      h1{
+        font-size: 0.8rem;
+        padding: 10px 0px;
+      }
+      h2{
+        font-size: 1rem;
+        padding: 10px 0px;
+      }
+      p{
+        font-size: 0.6rem;
+      }
+      button {
+        background: transparent;
+        border: 2px solid #d2ab78;
+        margin-top: 20px;
+        padding: 8px;
+        font-weight: 500;
+        margin-top: 19px;
+        font-size: 0.6rem;
+    }
+    } */
+  }

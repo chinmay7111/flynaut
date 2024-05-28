@@ -1,0 +1,241 @@
+@media  screen and (max-width: 424px) {
+    .first {
+      padding-top: 20px;
+      height: fit-content;
+    }
+  
+    .first .first-texts {
+      padding: 0px 40px;
+      h1 {
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 1rem;
+        line-height: 2.5;
+      }
+      p {
+        font-size: 1rem;
+        line-height: 2;
+      }
+      button{
+          font-size: 0.6rem;
+          margin-bottom: 100px;
+      }
+    }
+  
+    /* ************************ */
+    .second {
+      height: fit-content;
+    }
+    .second-heading {
+      text-align: center;
+  
+      h1 {
+        font-size: 1.8rem;
+      }
+      p {
+        font-size: 0.8rem;
+        padding: 0 20px;
+      }
+    }
+  
+    .second .cards .f-card {
+      width: 55%;
+      height: 45%;
+      overflow: hidden;
+      border: 0.2px solid burlywood;
+    }
+  
+    .s-card,
+    .t-card,
+    .fo-card {
+      display: none;
+    }
+  
+    /* ************************** */
+  
+    .third {
+      height: fit-content;
+    }
+  
+    .third .left {
+      #t-para{
+        font-size: 1.2rem;
+        text-align: justify;
+      }
+      h1 {
+        font-size: 2.8rem;
+      }
+    }
+  
+    .third .left #para {
+      padding: 0px 20px;
+    }
+    .third .left button{
+      margin: 1px 55px;
+    }
+  
+    .third #list {
+      ul li {
+        line-height: 10px;
+        text-align: justify;
+        font-size: 1.5rem;
+      }
+    }
+  
+    /* ******************************** */
+    .fourth {
+      height: fit-content;
+      
+    margin-left: 42px;
+    margin-top: 0px;
+
+    }
+  
+    .fourth .left-div{
+      margin-top: 0;
+      padding: 0;
+      /* margin-right: 88px; */
+    }
+    .fourth .left-div #cb {
+      font-size: 3.5rem;
+      
+    }
+  
+    .fourth .right-div {
+      text-align: justify;
+      #hrr{
+        /* display:none ; */
+      }
+  
+      .upper-txt #paragraph {
+        padding-right: 60px;
+        font-size: 1.2rem;
+      }
+  
+      .lower-txt {
+        padding: 10px 0px;
+        font-size: 0.8rem;
+        display: flex;
+        flex-wrap: wrap;
+        /* width: max-content; */
+  
+      }
+    }
+  
+    /* ******************************************** */
+  
+    .fifth {
+      height: fit-content;
+  
+      #imgh{
+        height: 200px;
+      }
+    }
+  
+    /* ************************ */
+    #up-txt {
+      padding: 60px 0px;
+  }
+  .sixth .upper-text .lf-txt {
+      padding: 0px 20px;
+      #left-h1{
+          font-size: 1.8rem;
+      }
+  }
+  .sixth .upper-text .rg-txt { 
+    padding: 0px 0px;
+      #right-p{
+          font-size: 1rem;
+          text-align:left ;
+      }
+  }
+  
+  .sixth .heading #six-heading{
+    font-size: 1.5rem;
+    margin-top: 80px;
+    #clr{
+      color:white;
+      background-color: #d2ab78;
+    }
+  }
+    .sixth .heading {
+     #heading-para {
+      line-height: 2;
+      color: #00000078;
+      font-size: 0.8rem;
+      padding: 17px 15px;
+      }
+      p {
+        font-size: 0.8rem;
+        padding: 0px 20px;
+      }
+    }
+    /* .sixth .cards {
+      .first-card,
+      .m-card {
+        margin: 0px 20px;
+      }} */
+  
+    .sixth .cards {
+      .first-card,
+      .m-card {
+         margin: 0px 20px;
+        height: 450px;
+        width: 300px;
+        line-height: 1.5;
+  
+        h1 {
+          font-size: 1.5rem;
+        }
+        h2 {
+          font-size: 1.2rem;
+        }
+        p {
+          font-size: 1rem;
+          padding: 0px 5px;
+          line-height: 1.5;
+        }
+  
+        button {
+          background: transparent;
+          border: 2px solid #d2ab78;
+          padding: 5px;
+          font-weight: 200;
+          margin-top: 20px;
+  
+          a {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  
+    /* .fourth{
+          .left-div{
+              h1{
+                  font-size: 80%;
+              }
+          }
+      } */
+  
+    /* .sixth{
+          .lf-txt{
+              h1{
+                  font-size: 60%;
+              }
+              
+          }
+          .rg-txt{
+              p{
+                  font-size: 70%;
+              }
+          }
+      } */
+  }
+
+  @media  screen and (max-width: 425px) {
+
+
+
+  }

@@ -1,0 +1,109 @@
+@media screen and (max-width: 1440px) and (min-width: 1024px) {
+    .first .first-texts{
+      padding: 200px 150px;
+
+      h2{
+        font-size: 1rem;
+        font-weight: 400;
+      }
+      h1{
+        font-weight: 500;
+      }
+    }
+    .second{
+        height: fit-content;
+        .second-heading .second-texts{
+          h1{
+            font-size: 1.8rem;
+            font-weight: 700;
+          }
+          p{
+            font-size: 1.2rem;
+            line-height: 2;
+          }
+        }
+    }
+
+    .third{
+      display: flex;
+      .left h1{
+        font-size: 3rem;
+        font-weight: 600;
+      }
+      .left #para p{
+        font-size: 1.2rem;
+      font-weight: 600;
+      text-align: left;
+      line-height: 2;
+      
+      }
+    }
+
+    .fourth{
+      
+      .right-div .upper-text{
+        p{
+          padding: 0px 20px;
+          font-size: 1.6rem;
+          text-align: justify;
+        }
+      }
+    }
+    .fourth .left-div h1 {
+      font-size: rem;
+      font-weight: 600;
+  }
+  .fifth {
+    .image {
+        height: 650px;
+    }
+}
+    .sixth{
+        height: fit-content;
+    }
+   
+    .sixth .upper-text {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center;
+        justify-content: space-between;
+        height: fit-content;
+
+
+
+    }
+   .sixth .upper-text .lf-txt {
+    padding: 50px 10px;
+    text-align: left;
+    width: 38%;
+    h1{
+    font-size: 2.7rem;
+    }
+
+   }
+   .sixth .upper-text .rg-txt{
+    max-width: 0px 100px;
+    padding: 0px 10px;
+    text-align: justify;
+    width: 50%;
+    p{
+      font-size: 1.5rem;
+    }
+   }
+
+   .sixth .heading {
+    h1 {
+        font-size: 2rem;
+        padding: 0px 0px;
+        font-weight: 600;
+    }
+
+}
+.sixth .heading {
+  p {
+      font-size: 1.2rem;
+      padding: 0px 321px;
+  }
+}
+  
+}

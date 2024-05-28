@@ -1,0 +1,156 @@
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .first{
+        .first-texts{
+            padding: 140px 100px;
+        }
+        h2{
+          font-size: 1rem;
+          font-weight: 600;
+        }
+        h1{
+          font-size: 1.8rem;
+          font-weight: 600;
+
+        }
+        p{
+          font-size: 1rem;
+          padding: 0px 90px;
+        }
+        button{
+          font-size: .8rem;
+        }
+    }
+.second{
+    height: fit-content;
+    .second-heading .second-texts {
+      text-align: center;
+      h1 {
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 2;
+  }
+  }
+}
+.cards{
+  gap: 10px;
+}
+    .f-card,
+    .s-card,
+    .t-card,
+    .fo-card {
+       width: 220px;
+    height: 400px;
+    }
+
+
+    .third{
+      .left {
+        h1{
+          font-size: 2rem;
+        }
+        #para p {
+          font-size: 1rem;
+          font-weight: 600;
+          text-align: left;
+          line-height: 1.5;
+      }
+      button{
+        font-size: 14px;
+        padding: 1px 35px;
+        height: 60px;
+        
+      }
+      }
+      #list ul li{
+        font-size: 1rem;
+        line-height: 5px;
+      }
+    
+    }
+
+    .fourth{
+      .left-div {
+        #cb{
+          font-size: 3.5rem;
+        }
+      }
+      .upper-txt {
+        #paragraph {
+            font-size: 1rem;
+            text-align: justify;
+        }
+    }
+    .lower-txt{
+      font-size: 0.8rem;
+      line-height: 2;
+      padding: 15px 27px
+    }
+    }
+
+    .fifth{
+      #imgh{
+        height: 535px;
+      }
+    }
+
+    .sixth .upper-text {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center;
+        height: 340px;
+
+    }
+   .sixth .upper-text .lf-txt {
+    
+    padding: 50px 10px;
+    width: 45%;
+    padding-bottom: 10px;
+    #left-h1{
+      font-size: 1.8rem;
+    }
+   
+
+   }
+   .sixth .upper-text .rg-txt{
+    max-width: 0px 100px;
+    padding: 0px 10px;
+    text-align: justify;
+    width: 50%;
+    #right-p{
+      font-size: 1rem;
+    }
+   }
+   .sixth .heading {
+    #six-heading{
+      font-size: 1.5rem;
+    }
+    #heading-para{
+      font-size: 0.8rem;
+      
+
+    }
+  }
+
+  .cards {
+    .first-card,
+    .m-card{
+      height: 450px;
+      width: 300px;
+      h1{
+        font-size: 1rem;
+      }
+      h2{
+        font-size: 1.2rem;
+      }
+      p{
+        font-size: 0.8rem;
+      }
+    }
+
+  }
+
+}
