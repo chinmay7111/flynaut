@@ -1,0 +1,16 @@
+@media (max-width: 425px) {
+    .first .first-texts {
+        p {
+            font-size: 1.5rem;
+            line-height: 2;
+            padding: 0px 60px;
+        }
+    }
+
+    .sixth .upper-text .lf-txt {
+        #left-h1 {
+            font-size: 0.5rem;
+            
+        }
+    }
+  }

@@ -106,8 +106,7 @@
     }
     .fourth .left-div #cb {
       font-size: 3.5rem;
-      /* text-align: ; */
-      padding-right:135px;
+      padding-right:0px;
       padding-top: 20px;
       
     }
@@ -149,23 +148,23 @@
   
     /* ************************ */
     #up-txt {
-      padding: 60px 0px;
+      padding: 60px 20px;
       height: fit-content;
   }
   .sixth .upper-text .lf-txt {
       padding: 0px 20px;
       #left-h1{
-          font-size: 1.8rem;
-          padding: 1px 60px;
-        text-align: justify;
+        font-size: 2.5rem;
+        padding: 1px 10px;
+        text-align: left;
       }
   }
   .sixth .upper-text .rg-txt { 
     padding: 0px 0px;
       #right-p{
-          font-size: 1rem;
+          font-size: 1.6rem;
           text-align:left ;
-          padding: 10px 59px;
+          padding: 10px 25px;
       }
   }
   
