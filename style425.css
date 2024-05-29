@@ -1,25 +1,27 @@
-@media  screen and (max-width: 424px) {
+@media  screen and (max-width: 768px) {
     .first {
-      padding-top: 20px;
+      padding-top: 0px;
       height: fit-content;
     }
   
     .first .first-texts {
-      padding: 0px 40px;
+      padding: 100px 40px;
+
       h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
       }
       h2 {
-        font-size: 1rem;
+        font-size: 0.8rem;
         line-height: 2.5;
       }
       p {
-        font-size: 1rem;
+        font-size: 0.6rem;
         line-height: 2;
+        padding: 0px 60px;
       }
       button{
-          font-size: 0.6rem;
-          margin-bottom: 100px;
+          font-size: 0.5rem;
+          /* margin-bottom: 100px; */
       }
     }
   
@@ -34,21 +36,22 @@
         font-size: 1.8rem;
       }
       p {
-        font-size: 0.8rem;
+        font-size: 1rem;
         padding: 0 20px;
       }
     }
   
-    .second .cards .f-card {
-      width: 55%;
-      height: 45%;
-      overflow: hidden;
-      border: 0.2px solid burlywood;
+    .second .cards .s-card,.t-card {
+      width:30%;
+      height: 500px;
+    
+     
     }
   
-    .s-card,
-    .t-card,
-    .fo-card {
+    
+    .fo-card,
+    .f-card
+     {
       display: none;
     }
   
@@ -60,25 +63,29 @@
   
     .third .left {
       #t-para{
-        font-size: 1.2rem;
-        text-align: justify;
+        font-size: 1.5rem;
+        text-align: left;
       }
       h1 {
-        font-size: 2.8rem;
+        font-size: 2.5rem;
+        text-align: left;
+        padding-left: 18px;
       }
     }
   
     .third .left #para {
-      padding: 0px 20px;
+      padding: 0px 48px;
     }
     .third .left button{
       margin: 1px 55px;
     }
   
     .third #list {
+      padding-right: 10px;
+
       ul li {
         line-height: 10px;
-        text-align: justify;
+        text-align: left;
         font-size: 1.5rem;
       }
     }
@@ -87,7 +94,7 @@
     .fourth {
       height: fit-content;
       
-    margin-left: 42px;
+    margin-left: 10px;
     margin-top: 0px;
 
     }
@@ -99,18 +106,25 @@
     }
     .fourth .left-div #cb {
       font-size: 3.5rem;
+      /* text-align: ; */
+      padding-right:135px;
+      padding-top: 20px;
       
     }
   
     .fourth .right-div {
       text-align: justify;
+      padding-right: 20px;
+        padding-left: 50px;
+    }
+
       #hrr{
         /* display:none ; */
       }
   
       .upper-txt #paragraph {
-        padding-right: 60px;
-        font-size: 1.2rem;
+        padding-right: 25px;
+        font-size: 1rem;
       }
   
       .lower-txt {
@@ -121,7 +135,7 @@
         /* width: max-content; */
   
       }
-    }
+   
   
     /* ******************************************** */
   
@@ -142,6 +156,8 @@
       padding: 0px 20px;
       #left-h1{
           font-size: 1.8rem;
+          padding: 1px 60px;
+        text-align: justify;
       }
   }
   .sixth .upper-text .rg-txt { 
@@ -149,6 +165,7 @@
       #right-p{
           font-size: 1rem;
           text-align:left ;
+          padding: 10px 59px;
       }
   }
   
@@ -165,7 +182,7 @@
       line-height: 2;
       color: #00000078;
       font-size: 0.8rem;
-      padding: 17px 15px;
+      padding: 17px 50px;
       }
       p {
         font-size: 0.8rem;
@@ -181,13 +198,18 @@
     .sixth .cards {
       #hgt-card{
         height: fit-content;
+        span {
+          color: #d2ab78;
+          font-weight: bold;
+          font-size: 20px;
+        }
       }
       .first-card,
       .m-card {
          margin: 0px 20px;
         height: fit-content;
         width: 300px;
-        line-height: 0.5;
+        line-height: 2;
   
         h1 {
           font-size: 1rem;
@@ -216,7 +238,7 @@
           padding: 4px;
           font-weight: 200;
           margin-top: 5px;
-          /* font-size: rem; */
+          
   
           a {
             text-decoration: none;
@@ -225,31 +247,7 @@
       }
     }
   
-    /* .fourth{
-          .left-div{
-              h1{
-                  font-size: 80%;
-              }
-          }
-      } */
+   
+  }
+
   
-    /* .sixth{
-          .lf-txt{
-              h1{
-                  font-size: 60%;
-              }
-              
-          }
-          .rg-txt{
-              p{
-                  font-size: 70%;
-              }
-          }
-      } */
-  }
-
-  @media  screen and (max-width: 425px) {
-
-
-
-  }

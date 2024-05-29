@@ -1,4 +1,4 @@
-@media screen and (max-width: 1440px) and (min-width: 1024px) {
+/* @media screen and (max-width: 1440px) and (min-width: 1024px) {
     .first{
         height: fit-content;
     }
@@ -60,7 +60,7 @@
                 text-align: justify;
                 /* width: min-content; */
                 /* padding: 0 215px; */
-                width: 550px;
+                /* width: 550px;
             }
        
       .right-div .upper-text{
@@ -128,4 +128,4 @@
   }
 }
   
-}
+} */ 

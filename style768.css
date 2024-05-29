@@ -1,20 +1,20 @@
-@media screen and (max-width: 768px) and (min-width: 425px) {
+@media screen and (min-width: 769px) {
     .first {
       
       height: fit-content;
     }
   
     .first .first-texts {
-      padding: 85px 100px;
+      padding: 80px 100px;
       h1 {
-        font-size: 1.4rem;
+        font-size: 1rem;
       }
       h2 {
         font-size: 0.5rem;
       }
       p {
         font-size: 0.6rem;
-        padding: 0px 40px;
+        padding: 20px 40px;
       }
       button{
         font-size: 0.4rem;
@@ -32,12 +32,13 @@
         font-size: 1rem;
       }
       #first-para {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
       }
     }
     .second .cards {
       display: flex;
       flex-direction: row;
+      gap: 1rem;
     }
     .s-card .c-text {
       position: relative;
@@ -51,16 +52,17 @@
       }
     }
     .second .cards .f-card,
-    .s-card{
-      width: 180px;
+    .s-card,.t-card,
+    .fo-card{
+      width: 20%;
    
       height: 350px;
       overflow: hidden;
     }
-    .t-card,
+    /* .t-card,
     .fo-card {
-      display: none;
-    }
+      /* display: none; */
+    */
   
     
   .s-card .camera {
@@ -112,27 +114,28 @@
   
   .third .left {
     p {
-      font-size: 1rem;
-      padding: 0px 20px;
+      font-size: 5rem;
+      padding: 0px 0px;
       text-align: center;
     }
     h1 {
-      font-size: 1.8rem;
+      font-size: 4rem;
       font-weight: 600;
     }
   }
   
   .third .left #t-para {
-    padding: 0px 35px;
-    font-size: 0.8rem;
-  }
+    padding: 0px 36px;
+    text-align: justify;
+    font-size: 1.3rem;
+}
   
-  .third .right {
+  /* .third .right {
     ul li {
       line-height: 15px;
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
-  }
+  } */
   .third {
     
     & .left {
@@ -141,9 +144,11 @@
         bottom: 21px;
     }
         button {
-            font-size: 10px;
-            padding: 1px 35px;
-            height: 35px;
+         
+            font-size: 15px;
+            padding: 20px 40px;
+            height: 57px;
+     
             span{
               font-size: 2rem;
             }
@@ -151,46 +156,53 @@
     }
   
     
-      #list ul li {
-          font-size: 1rem;
-          line-height: 1px;
-          
-      }
+    #list ul li {
+      font-size: 1.5rem;
+      line-height: 19px;
+      font-weight: 500;
+  }
   
   }
   /* ************************
    */
   .fourth {
+    display: flex;
+    flex-wrap: wrap;
     height: fit-content;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      margin-right: 0px;
-      padding-top: 0px;
-      padding-bottom: 0px;
-  padding-right: 100px;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    gap: 10%;
+  .left-div {
+    flex: 0 0 40%; 
+    padding-left: 100px;
+  }
+  .right-div {
+    flex: 1; /* Allow right-div to grow and fill remaining space */
+  }
   }
   
+  
   .fourth .left-div #cb {
-    font-size: 2.5rem;
+    font-size: 4rem;
   }
   
   .fourth .right-div {
     text-align: center;
+    padding-right: 24px;
     .upper-txt {
       padding: 34px 0px;
   }
     .upper-txt #paragraph {
-      font-size: 0.9rem;
+      font-size: 1.2rem;
       text-align: justify;
   }
   
     .lower-txt {
       padding: 40px 0px;
       display: flex;
-      justify-content: center;
+     
       align-items: center;
-      font-size: 0.7rem;
+      font-size: 1rem;
   
     }
   }
@@ -212,16 +224,19 @@
       display: flex !important;
       flex-direction: row !important;
       align-items: center;
-      justify-content: center;
+      justify-content: space-between;
       height: fit-content;
       padding: 32px 103px;
   
   }
   .sixth .upper-text .rg-txt {
+    padding-right: 20px;
     #right-p {
-        font-size: 0.8rem;
-        width: 267px;
+        font-size: 1.2rem;
+        width: 400px;
        padding-top: 20px;
+       padding-right: 30px;
+       padding-left: 30px;
       
     }
   }
@@ -237,11 +252,14 @@
   
   }
   .sixth .upper-text .lf-txt {
+  width: 500px;
     #left-h1 {
-      font-size: 1.2rem;
+      font-size: 1.8rem;
     }
    
     .sixth .upper-text .rg-txt  {
+   
+
       p{
           font-size: 1.5rem;
           padding: 0px 167px;
@@ -261,12 +279,13 @@
     
     
   }
-  /* .cards {
+   .cards {
     .first-card,
     .m-card{
-      height: 320px;
-      width: 220px;
-      line-height: 20px;
+      height: fit-content;
+      width: 200px;
+      gap: 0;
+      /* line-height: 10px; */
       h1{
         font-size: 0.8rem;
         padding: 10px 0px;
@@ -287,5 +306,7 @@
         margin-top: 19px;
         font-size: 0.6rem;
     }
-    } */
+    } 
   }
+
+} 
