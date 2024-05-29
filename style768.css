@@ -408,6 +408,9 @@
     padding-right: 55px;
     padding-left: 10px;
     text-align: justify;
+    ul li{
+      line-height: 20px;
+    }
 }
 
 .fourth {
@@ -420,4 +423,14 @@
       }
   }
 }
+}
+
+
+@media only screen and (max-width: 320px) {
+  .third #list {
+    ul li{
+      font-size: 1.2rem;
+    }
+    padding-left: 40px;
+  }
 }
