@@ -174,17 +174,20 @@
     margin-top: 10%;
     gap: 10%;
   .left-div {
-    flex: 0 0 40%; 
-    padding-left: 100px;
+    flex: 0 0 50%; 
+    /* padding-left: 100px; */
   }
   .right-div {
-    flex: 1; /* Allow right-div to grow and fill remaining space */
+    flex: 1;
   }
   }
   
   
   .fourth .left-div #cb {
     font-size: 4rem;
+    text-align: center;
+    padding-left: 15px;
+
   }
   
   .fourth .right-div {
@@ -318,7 +321,7 @@
     padding-right: 100px;
 }
 }
-@media only screen and (min-width: 1440px) and (max-width:2560px) {
+@media only screen and (min-width: 1441px) and (max-width:1496px) {
   .third {
     #list ul li {
       font-size: 1rem;
@@ -337,15 +340,15 @@
   .fourth {
     .left-div {
         
-        padding-left: 300px;
+        /* padding-left: 100px; */
         padding-bottom: 100px;
         #cb{
-          font-size: 3rem;
+          font-size: 3.5rem;
         }
     }
     .right-div {
       .upper-txt #paragraph {
-         font-size: 1rem;
+         font-size: 1.5rem;
          text-align: justify;
      }
      .lower-txt {
@@ -365,21 +368,24 @@
   .fourth {
     .left-div {
         
-        padding-left: 240px;
+        padding-left: 60px;
     }
 }
 
 .fourth .right-div {
   text-align: center;
-  padding-right: 260px;
+  padding-right: 100px;
 }
 }
-@media only screen and (min-width: 426px) and (max-width:768px ) {
+@media only screen and (min-width: 427px) and (max-width:768px ) {
   .third .left {
     padding-left: 30px;
   }
   .third #list {
     padding-right: 360px;
+    ul li{
+      line-height: 40px;
+    }
 }
   
   
@@ -415,14 +421,25 @@
 
 .fourth {
   padding-right: 50px;
+  justify-content: flex-start;
+
   .left-div {
-      padding-right: 80px;
+      /* padding-right: 80px; */
+      padding-left: 50px;
+
       #cb{
         font-size: 2.5rem;
         font-weight: 600;
       }
   }
+  .upper-txt {
+    #paragraph {
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+}  
 }
+
 }
 
 
@@ -433,4 +450,5 @@
     }
     padding-left: 40px;
   }
+
 }

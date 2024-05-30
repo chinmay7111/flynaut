@@ -423,11 +423,11 @@ section {
   margin-top: 10%;
 .left-div {
   /* flex: 0 0 40%;  */
-  margin: 0px 45px;
-  padding: 0px 75px
+  /* margin: 0px 45px;
+  padding: 0px 75px */
 }
   .left-div {
-    padding-top: 40px 120px;
+    /* padding-top: 40px 120px; */
     #cb{
       /* font-size: .5rem; */
       font-weight: 550;
@@ -438,7 +438,7 @@ section {
 
   .right-div {
     text-align: justify;
-    padding-right: 40px;
+    /* padding-right: 40px; */
 
     
   }
